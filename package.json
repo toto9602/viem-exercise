@@ -1,0 +1,17 @@
+{
+  "name": "viem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "ethers": "5.7.0",
+    "viem": "2.21.53"
+  }
+}
