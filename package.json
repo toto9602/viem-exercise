@@ -2,16 +2,21 @@
   "name": "viem",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ts-node index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "benchmark": "^2.1.4",
     "ethers": "5.7.0",
     "viem": "2.21.53"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "benchmark": "^2.1.4",
+    "ts-node": "^10.9.2"
   }
 }
